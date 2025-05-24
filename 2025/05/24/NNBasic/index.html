@@ -26,14 +26,14 @@
 <meta property="og:site_name" content="nyllsom">
 <meta property="og:description" content="神经网络基础 神经网络是一种相当优美的程序设计范式。与传统的处理策略——将要解决的问题精确拆分和设计成计算机能够高效解决的子任务——不同，在使用神经网络的时候，我们不会直接告诉计算机我们应该怎么解决这个问题。相反，它会自己从数据中学习，找到相应的解决方案。 在这篇文档中，第一部分将会基于 MLP 介绍神经网络的基本构成，以及简洁的数学描述；在第二部分会介绍梯度下降方法，为神经网络的调整方向提">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/2025/05/24/NNBasic/NNB_1.png">
+<meta property="og:image" content="http://example.com/2025/05/24/NNBasic/NNBasic/NNB_1.png">
 <meta property="og:image" content="http://example.com/2025/05/24/NNBasic/NNB_2.png">
 <meta property="og:image" content="http://example.com/2025/05/24/NNBasic/NNB_3.png">
 <meta property="article:published_time" content="2025-05-24T03:58:53.000Z">
-<meta property="article:modified_time" content="2025-05-24T04:04:53.658Z">
+<meta property="article:modified_time" content="2025-05-24T04:10:37.960Z">
 <meta property="article:author" content="nyllsom">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/2025/05/24/NNBasic/NNB_1.png">
+<meta name="twitter:image" content="http://example.com/2025/05/24/NNBasic/NNBasic/NNB_1.png">
   
   
   
@@ -403,7 +403,7 @@ numpy
 <h3 id="感知器">1.1 感知器</h3>
 <p>感知器是神经网络中的基本单元，是对人类神经元工作原理的模仿。最早的时候，神经元被描述为如下的结构：</p>
 <figure>
-<img src="/2025/05/24/NNBasic/NNB_1.png" srcset="/img/loading.gif" lazyload alt="alt text">
+<img src="/2025/05/24/NNBasic/NNBasic\NNB_1.png" srcset="/img/loading.gif" lazyload alt="alt text">
 <figcaption aria-hidden="true">alt text</figcaption>
 </figure>
 <p>它接收若干个值为 <span class="math inline">0</span>/<span class="math inline">1</span> 的输入 <span class="math inline"><em>x</em><sub>1</sub>, <em>x</em><sub>2</sub>, …, <em>x</em><sub><em>n</em></sub></span>，生成一个值为
@@ -1037,5 +1037,20 @@ Williams</em></a>，这一篇是介绍反向传播的经典论文。</li>
   <noscript>
     <div class="noscript-warning">博客在允许 JavaScript 运行的环境下浏览效果更佳</div>
   </noscript>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 </body>
 </html>
