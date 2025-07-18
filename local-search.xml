@@ -4,6 +4,27 @@
   
   
   <entry>
+    <title>CS229-Lec1</title>
+    <link href="/2025/07/18/CS229-Lec1/"/>
+    <url>/2025/07/18/CS229-Lec1/</url>
+    
+    <content type="html"><![CDATA[<h1 id="lecture-1-introduction">Lecture 1: Introduction</h1><h2 id="five-topics">Five Topics</h2><ul><li>Supervised Learning</li><li>Machine Learning Strategy</li><li>Deep Learning</li><li>Unsupervised Learning</li><li>Reinforcement Learning</li></ul><h2 id="machine-learning-definition">Machine Learning definition</h2><ul><li>Arthur Samuel(1959). Machine Learning: Field of study that givescomputers the ability to learn without explicitly programmed.</li><li>Tom Mitchell(1998) Well-posed Learning Problem: A computer programis said to <em>learn</em> from experience E with repect to some task Tand some perfomance measure P, if its performance on T, as measured byP, improves with experience E.</li></ul><h2 id="machine-learning-tools">Machine Learning Tools</h2><ul><li>Supervised Learning.<ul><li>given a dataset <span class="math inline">(<em>x</em>, <em>y</em>)</span>, which consistsinputs <span class="math inline"><em>x</em></span> and labels <span class="math inline"><em>y</em></span>, find a mapping from the inputs tothe labels.</li><li>Regression: <span class="math inline"><em>y</em></span> takescontinuous values.</li><li>Classification: <span class="math inline"><em>y</em></span> takesdiscrete values.</li></ul></li><li>Deep Learning:</li><li>Unsupervised Learning:<ul><li>given a dataset <span class="math inline"><em>x</em></span>, onlyinputs no labels</li><li>the use of unlabeled data</li><li>Clustering</li></ul></li><li>Reinforcement Learning:<ul><li>do more good-dog things and less bad-dog things</li><li>playing games</li><li>robotic applications</li></ul></li></ul><h2 id="learning-theory">Learning Theory</h2><ul><li>Systematic Engineering Principles</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>AI</category>
+      
+      <category>CS229</category>
+      
+    </categories>
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>变分自编码器</title>
     <link href="/2025/05/24/VAEBasic/"/>
     <url>/2025/05/24/VAEBasic/</url>
